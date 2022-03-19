@@ -1,0 +1,46 @@
+body{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.square{
+  
+  background-color: #d4a373;
+  height: 7rem;
+  width: 7rem;
+  display: inline-block;
+  border-radius: 5px;
+
+}
+.x{
+  position: relative;
+}
+.x:after{
+  content: "\274C";
+  font-size: 3rem;
+  position: absolute;
+  line-height: 7rem;
+  display: block;
+  margin-left: 1.5rem;
+  margin-right: auto
+
+}
+.o{
+  position: relative;
+}
+.o:after{
+  content: "\2B55";
+  font-size: 3rem;
+  position: absolute;
+  line-height: 7rem;
+  display: block;
+  margin-left: 1.5rem;
+  margin-right: auto;
+}
+button{
+  margin-top: 2rem;
+  font-size: 1rem;
+
+}
